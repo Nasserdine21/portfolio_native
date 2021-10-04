@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header .menu{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    height: 60px;
+    
+    
+
+   
+   
+}
+
+header .menu .avatar{
+   
+    color: #0060f1;
+    font-size: 28px;
+    margin-left: 20px;
+    margin: auto 0;
+    
+}
+
+header nav{
+    margin: auto 0;
+}
+
+header nav ul li{
+
+    display: inline;
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    
+    
+    
+   
+
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #c5c5c5;
+    
+}
+header nav .cv{
+    color: white;
+    background-color: #0060f1;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+
+header #profil{
+
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+}
+
+header #profil .desc{
+
+    width: 45%;
+    margin-left: 30px;
+}
+
+header #profil .desc #name{
+
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+header #profil .desc #name span{
+
+    color: #0060f1;
+}
+
+header #profil .desc p{
+
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1.6;
+    color: #69707a;
+}
+
+header #profil .desc .btns{
+
+    margin-top: 50px;
+    
+    
+}
+
+header #profil .desc .btns .dcv{
+
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #0060f1;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+header #profil .desc .btns .cnt{
+
+    background: none;
+    border: none;
+    outline: none;
+    background-color: #dae7fb;
+    color: #0060f1;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+header #profil .desc .btns .cnt:hover{
+
+    background: none;
+    border: 2px solid #0060f1;
+    transition: all 0.3s ease-in-out;
+    
+  
+}
+
+header #profil .desc .btns .dcv:hover{
+
+    
+    background: none;
+    color: #0060f1;
+    
+    border: 2px solid #0060f1;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+
+
+header .dev{
+    width: 45%;
+    margin-right: 30px;
+    
+}
