@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOX</title>
-    <link rel="styleshhet" href="style.css">
+    <link rel="styleshhet" href="styling/style.css">
 </head>
 <body>
 
@@ -13,11 +13,13 @@
 
     <header>
 
-        <div id="avatar">
+        <div class="avatar">
 
-            <h3 id="fox">Full Stack Developer</h3>
+            <h3 class="fox">Full Stack Developer</h3>
 
         </div>
+
+         <!--nav Start-->
 
         <nav>
 
@@ -27,7 +29,7 @@
                 <li>Formations</li>
                 <li>Competences</li>
                 <li>Contact</li>
-                <li>Telecharger CV</li>
+                <li>Telecharger CV <i class="fas fa-arrow-down"></i></li>
 
 
 
@@ -35,60 +37,326 @@
 
         </nav>
 
+        <!--nav end-->
+
+        <!--Header hero start-->
+
+        <div id="profil">
+
+            <div class="desc">
+
+                <h1 id="name">NASREDDINE EL AATTARI</h1>
+
+                <p>
+
+                 Full Stack Web Developer.
+                 j’ai pu travailler sur plusieurs projects de dévloppement web, presonnels et professionnels, Compétent PHP5 , HTML 5 CSS3 , Javascript, 
+                 JQuery et WordPress. et doté d’une grande curiosité à apprendre des nouvelles techniques et technologies.
+
+                </p>
+
+                    <button>Telecharger CV <i class="fas fa-arrow-down"></i></button>
+                    <button>Contact Moi</button>
+
+
+            </div>
+
+
+            <div class="dev">
+
+                <img src="assets/dev.svg">
+
+
+            </div>
+
+
+        </div>
+
+        <!--Header hero end-->
+
+
+    </header>
+
+         
+
         <!--Header End-->
 
 
         
+         <!--Main start-->
 
         <main>
 
-            <!--Profil Start-->
 
-            <article class="box1">
+            <!--formation start-->
 
-                <div class="desc">
+            <section id="formation">
 
-                    <h1 id="name">NASREDDINE EL AATTARI</h1>
 
-                    <p>
 
-                     Full Stack Web Developer.
-                     j’ai pu travailler sur plusieurs projects de dévloppement web, presonnels et professionnels, Compétent PHP5 , HTML 5 CSS3 , Javascript, 
-                     JQuery et WordPress. et doté d’une grande curiosité à apprendre des nouvelles techniques et technologies.
+                
 
-                    </p>
+                <div class="pic1">
 
-                        <button>Telecharger CV</button>
-                        <button>Contact Moi</button>
+                    <img src="assets/formation.svg">
+
+
+                </div>
+
+                
+
+                <!--timing start-->
+
+                <div class="parcour">
+
+
+                    <h1> <i class="fas fa-graduation-cap"></i>FORMATIONS</h1>
+
+                    <div class="3w">
+
+                        <div class="3wp">
+
+                        <h4>3W ACADEMY RABAT</h4>
+
+                        <p>Full Stack Web Developer</p>
+
+                    </div>
+
+                    <div class="3wt">
+
+                        <p>2021/10 - present</p>
+
+                    </div>
+
+                    </div>
+
+
+
+
+                    <div class="ista">
+
+                        <div class="istap">
+
+                        <h4>INSTITUT SPECIALISE DE TECHNOLOGIE APPLIQUEE BENGUERIR</h4>
+
+                        <p>technique de devloppment multimedia</p>
+
+                    </div>
+
+                    <div class="istat">
+
+                        <p>2018 - 2021</p>
+
+                    </div>
+
+                    </div>
+
+
+
+                    <div class="bac">
+
+                        <div class="bacp">
+
+                        <h4>BACCALAUREAT SCIENCES EXPREMENTALES</h4>
+
+                        <p>option : Sciences physiques et chimiques lycee abdelah ibrahim - Benguerir</p>
+
+                    </div>
+
+                    <div class="bact">
+
+                        <p>2017 - 2018</p>
+
+                    </div>
+
+                    </div>
+
+
+                </div>
+                
+                <!--timing end-->
+
+
+
+            </section>
+            
+            <!--formation end-->
+
+
+            <!--competences start-->
+
+            <section id="competences">
+
+
+                <h1> <i class="fas fa-laptop-code"></i> COMPETENCES</h1>
+
+
+
+                <div class="left">
+
+
+                    <div class="adobe">
+
+                        <div class="al">
+
+                            <h4><i class="fas fa-pen-nib"></i> ADOBE SERIE</h4>
+
+                            <ul>
+
+                                <li>PHOTOSHOP</li>
+                                <li>PREMIERE PRO</li>
+                                <li>XD</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="ar">
+
+                            
+                            <ul>
+
+                                <li>ILLUSTRATOR</li>
+                                <li>AFTER EFFECTS</li>
+                                <li>INDESIGN</li>
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="bureau">
+
+                        <div class="bl">
+
+                            <h4><i class="fas fa-inbox"></i> BUREATIQUE</h4>
+
+                            <ul>
+
+                                <li>MS WORD</li>
+                                <li>MS EXCEL</li>
+                                
+
+                            </ul>
+
+                        </div>
+
+                        <div class="br">
+
+                            
+                            <ul>
+
+                                <li>MS POWER POINT</li>
+                                
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
 
 
                 </div>
 
 
-                <div class="dev">
+                <div class="midelle">
 
-                    <img src="assets/dev.svg">
+                    <img src="assets/competence.svg">
+
+
+                </div>
+
+                
+
+                <div class="right">
+
+
+                    <div class="web">
+
+                        <div class="wl">
+
+                            <h4><i class="fas fa-file-code"></i> DEVELOPPEMENT WEB</h4>
+
+                            <ul>
+
+                                <li>HTML/CSS/JAVASCRIPT</li>
+                                <li>PHP/LARAVEL</li>
+                                <li>WORDPRESS</li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="wr">
+
+                            
+                            <ul>
+
+                                <li>JQUERY</li>
+                                <li>SQL/MYSQL</li>
+                                <li>BOOTSTRAP</li>
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="mobile">
+
+                        <div class="ml">
+
+                            <h4><i class="fas fa-mobile-alt"></i> DEVELOPPEMENT MOBILE</h4>
+
+                            <ul>
+
+                                <li>JAVA</li>
+                                <li>SQLITE</li>
+                                
+
+                            </ul>
+
+                        </div>
+
+                        <div class="mr">
+
+                            
+                            <ul>
+
+                                <li>XML</li>
+                                
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
 
 
                 </div>
 
 
-            </article>
 
+            </section>
 
-             <!--Formations Start-->
-
-
-             <!--Formations End-->
-
-
-
-
-
+            <!--competences end-->
             
         </main>
 
-    </header>
+        <!--Main end-->
+
     
+
+
+    <script src="https://kit.fontawesome.com/2ea04fd82f.js" crossorigin="anonymous"></script>
 </body>
 </html>
