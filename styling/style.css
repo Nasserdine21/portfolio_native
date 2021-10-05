@@ -71,6 +71,7 @@ header nav .cv{
 header nav ul li a:hover{
     text-decoration: underline;
     color: black;
+    
     transition: all 0.5s ease-in-out;
     
     
@@ -81,10 +82,10 @@ header #profil{
     display: flex;
     flex-direction: row;
     padding-top: 100px;
-    
+    width: 100%;
     align-items: center;
     justify-content: space-between;
-    height: 700px;
+    min-height: 700px;
 }
 
 header #profil .desc{
@@ -113,6 +114,149 @@ header #profil .desc p{
     color: #69707a;
 }
 
+.formation-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parcours{
+    
+    width: 50%;
+}
+
+.parcours .item{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parcours h1{
+
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.parcours .item{
+
+   margin-bottom: 60px;
+    
+}
+
+.parcours .item .item-info h4{
+
+    font-size: 23px;
+}
+
+.parcours .item .item-info p{
+
+    line-height: 1.8;
+    font-size: 18px;
+    color: #69707a;
+}
+
+.parcours .item .item-date p{
+
+    color: #0060f1;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+
+/* main #formation .parcour .w3, .ista, .bac{
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+
+
+
+main #formation .parcour .w3 h4{
+
+   font-size: 23px;
+
+}
+
+main #formation .parcour .ista{
+
+    margin-top: 45px;
+    background-color: green;
+
+
+}
+
+main #formation .parcour .istap{
+
+    line-height: 1.8;
+    font-size: 18px;
+    
+    background-color: red;
+    
+ 
+ }
+
+ main #formation .parcour .istap p{
+
+    color: #69707a;
+    
+ 
+ }
+
+ main #formation .parcour .istap h4{
+
+    font-size: 23px;
+ 
+ }
+
+ main #formation .parcour .w3 h4{
+
+    font-size: 23px;
+ 
+ }
+ 
+ main #formation .parcour .w3 .w3p{
+ 
+     line-height: 1.8;
+     font-size: 18px;
+  
+  }
+
+ main #formation .parcour .w3 .w3t p{
+
+    color: #0060f1;
+    font-size: 18px;
+    margin-right: 30px;
+    
+   
+ 
+ }
+
+
+
+ main #formation .parcour .istat p{
+
+    color: #0060f1;
+    font-size: 18px;
+    margin-right: 30px;
+    width: 100%;
+    background-color: yellow;
+    
+   
+ 
+ }
+
+ main #formation .parcour .w3 p{
+
+    color: #69707a;
+ 
+ } */
+
+
 header #profil .desc .btns{
 
     margin-top: 50px;
@@ -127,7 +271,7 @@ header #profil .desc .btns .dcv{
     outline: none;
     background-color: #0060f1;
     color: white;
-    padding: 20px;
+    height: 65px;
     width: 200px;
     border-radius: 10px;
     cursor: pointer;
@@ -144,7 +288,7 @@ header #profil .desc .btns .cnt{
     background-color: #dae7fb;
     color: #0060f1;
     font-weight: bold;
-    padding: 20px;
+    height: 65px;
     width: 200px;
     border-radius: 10px;
     margin-left: 20px;
@@ -180,4 +324,39 @@ header .dev{
     width: 45%;
     margin-right: 30px;
     
+}
+
+main #formation{
+    
+    
+
+    padding-top: 30px;
+
+    padding-bottom: 30px;
+    
+    width: 100%;
+    background-color: #f2f6fc;
+    min-height: 700px;
+}
+
+
+/* main #formation .parcour{
+
+    width: 50%;
+    
+     
+}
+
+main #formation .parcour h1{
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+    font-size: 40px;
+} */
+
+
+
+main #formation .pic1{
+
+    transform: rotateY(180deg);
+    width: 45%;
 }
