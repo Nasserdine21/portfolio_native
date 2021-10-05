@@ -263,6 +263,9 @@ header #profil .desc .btns{
     
     
 }
+#bg{
+    display: none;
+}
 
 header #profil .desc .btns .dcv{
 
@@ -359,4 +362,158 @@ main #formation .pic1{
 
     transform: rotateY(180deg);
     width: 45%;
+}
+
+
+.burger{
+    cursor: pointer;
+    display: none;
+
+   
+}
+
+.mn{
+    width: 33px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.show{
+
+    left: 300px;
+    transition: all 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .burger{
+        display: block;
+        
+         position: absolute;
+
+         
+       
+
+        top: 4.5%;
+
+        right: 0px; 
+        
+         
+        
+    }
+
+    header .menu .burger i{
+        color: black;
+        font-size: 30px;
+        transform: rotate(270deg);
+        
+    }
+
+    .menurotate{
+
+        transform: rotate(180deg);
+        transition: all 0.4s ease-in-out;
+    }
+
+  
+    header .menu{
+        
+        width: 100%;
+     
+        background-color: #dae7fb;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+     
+        
+    }
+
+    header .avatar h3{
+
+        
+        font-size: 23px;
+        position: absolute;
+
+        left: 20px;
+        top: 4.5%;
+     
+        
+    }
+
+    header .avatar{
+
+        width: 80%;
+      
+    
+        
+    }
+
+  header nav{
+      visibility: hidden;
+  }
+
+  #profil .dev img{
+
+    display: none;
+  }
+
+    
+ 
+    #GALLERY img{
+        display: none;
+    }
+
+    main #formation{
+        display: none;
+    }
+
+     #bg{
+        display: block;
+        background-color:#dae7fb;
+       position: fixed;
+       width: 300px;
+       height: 100%;
+
+       left: -300px;
+        
+
+       border-bottom-right-radius: 20px;
+
+       border-top-right-radius: 20px;
+
+       z-index: 10;
+
+       
+      
+    } 
+
+    #bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+
+    #bg ul li{
+        
+        
+        list-style: none;
+
+        margin-top: 30px;
+
+        font-size: 25px;
+
+       
+       
+    }
+
+    #bg ul li a{
+        text-decoration: none;
+        color: #0060f1;
+    }
+
+
+   
+
 }
