@@ -256,6 +256,11 @@ main #formation .parcour .istap{
  
  } */
 
+ #GALLERY img{
+
+    width: 200px;
+ }
+
 
 header #profil .desc .btns{
 
@@ -379,11 +384,9 @@ main #formation .pic1{
     margin: 6px 0;
 }
 
-.show{
 
-    left: 300px;
-    transition: all 0.4s ease-in-out;
-}
+
+
 
 @media screen and (max-width: 700px) {
     
@@ -412,8 +415,14 @@ main #formation .pic1{
 
     .menurotate{
 
+
         transform: rotate(180deg);
         transition: all 0.4s ease-in-out;
+    }
+
+    .showing{
+
+        width: 300px;
     }
 
   
@@ -468,30 +477,43 @@ main #formation .pic1{
     }
 
      #bg{
-        display: block;
+        /* display: block;
         background-color:#dae7fb;
        position: fixed;
        width: 300px;
        height: 100%;
 
-       left: -300px;
+       
+       
         
 
        border-bottom-right-radius: 20px;
 
        border-top-right-radius: 20px;
 
-       z-index: 10;
+       z-index: 10; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #dae7fb;
+        overflow-x: hidden;
+        transition: all 0.5s ease-in-out;
+        
 
        
       
     } 
 
-    #bg{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    
+    
     
     
 

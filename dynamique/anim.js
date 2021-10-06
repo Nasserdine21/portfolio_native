@@ -1,11 +1,12 @@
 let menu = document.querySelector(".burger");
-let show = document.querySelector("#bg");
+
 
 
 menu.addEventListener('click', () => {
 
     
 
-    menu.classList.add("menurotate");
-    show.classList.add("show");
+    menu.classList.toggle("menurotate");
+    document.getElementById("bg").style.width = "300px";
+    document.querySelector(".menu").style.backgroundColor = "white";
 });
