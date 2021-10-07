@@ -32,7 +32,7 @@
 
     <header>
 
-        <div class="menu">
+        <div class="menu" id="scrol">
 
         <div class="avatar">
 
@@ -54,10 +54,10 @@
 
             <ul>
 
-                <li><a href="#">Profil</a></li>
-                <li><a href="#">Formations</a></li>
-                <li><a href="#">Competences</a></li>
-                <li><a href="#">Contact</a></li>
+                <li id="prfl"><a href="#">Profil</a></li>
+                <li id="frm"><a href="#">Formations</a></li>
+                <li id="cmpt"><a href="#">Competences</a></li>
+                <li id="cnt"><a href="#">Contact</a></li>
                 <li class="cv">Telecharger CV <i class="fas fa-arrow-down"></i></li>
                
 
@@ -79,7 +79,7 @@
 
             <div class="desc">
 
-                <h1 id="name">NASREDDINE <span>EL AATTARI</span></h1>
+                <h1 id="name">NASREDDINE EL AATTARI</h1>
 
                 <p>
 
@@ -472,7 +472,9 @@
              <section id="contact">
 
 
-                <div class="contactl">
+                <div class="contact">
+
+                    <div class="left">
 
                     <h1>Let's chat.</h1>
                     <h1>Tell me about your</h1>
@@ -480,18 +482,25 @@
 
                     <div class="mailing">
 
+                        <div class="icone">
 
                         <i class="fas fa-envelope"></i>
 
+                    </div>
+
+                        <div class="ml">
                         <p>MAIL ME AT</p>
 
-                        <p>Nasserkrauser@gmail.com</p>
-
+                        <p id="nasser">Nasserkrauser@gmail.com</p>
 
                     </div>
 
+                    </div>
 
-                    <div class="contactr">
+                </div>
+
+
+                    <div class="contact-form">
 
                         <h1>Send me a message</h1>
 
@@ -505,7 +514,7 @@
 
                             <label>Message</label>
 
-                            <textarea name="message"></textarea>
+                            <input type="text" name="message" id="message">
 
                             <input type="submit" value="send" name="btn">
 
@@ -532,6 +541,7 @@
 
         <footer>
 
+            <div id="footer">
             <div class="phone">
 
                 <h3><i class="fas fa-phone-alt"></i> +212-6-57-17-19-80</h3>
@@ -549,23 +559,35 @@
             <div class="social">
 
                 <h3>Social Links</h3>
+
+                <div class="icn">
                 <i class="fab fa-instagram"></i>
                 <i class="fab fa-linkedin"></i>
                 <i class="fab fa-facebook"></i>
 
-
+            </div>
             </div>
 
 
+        </div>
 
+        
+        <hr>
+    
+        
+       
+        <marquee>REALIZED BY NASSERDINE EL AATTARI</marquee>
         </footer>
 
         <!--footer end-->
 
     
 
-        <script src="dynamique/anim.js"></script>
+
 
     <script src="https://kit.fontawesome.com/2ea04fd82f.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="dynamique/anim.js"></script>
+
 </body>
 </html>
