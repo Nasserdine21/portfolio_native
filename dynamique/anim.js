@@ -47,6 +47,8 @@ window.addEventListener('scroll', function() {
 
     
 
+    
+
     scr.classList.toggle('scroll-active', windowpos);
 
     fox.classList.toggle("scroll-avatar", windowpos);
