@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOX</title>
     <link rel="stylesheet" href="styling/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -81,7 +82,7 @@
 
         <div id="profil">
 
-            <div class="desc">
+            <div class="desc" data-aos="fade-right" data-aos-duration="700">
 
                 <h1 id="name">NASREDDINE EL AATTARI</h1>
 
@@ -96,7 +97,7 @@
                 <div class="btns">
 
                     <button class="dcv">Telecharger CV <i class="fas fa-arrow-down"></i></button>
-                    <button class="cnt">Contact</button>
+                    <button class="cnt"><a href="#contact">Contact</a></button>
 
                 </div>
 
@@ -104,7 +105,7 @@
             </div>
 
 
-            <div class="dev">
+            <div class="dev" data-aos="fade-left" data-aos-duration="700">
 
                 <img src="assets/dev.svg">
 
@@ -593,7 +594,12 @@
 
     <script src="https://kit.fontawesome.com/2ea04fd82f.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="dynamique/anim.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

@@ -755,6 +755,13 @@ header #profil .desc .btns .cnt{
     cursor: pointer;
 }
 
+header #profil .desc .btns .cnt a{
+
+    
+    color: #0060f1;
+    text-decoration: none;
+}
+
 
 header #profil .desc .btns .cnt:hover{
 

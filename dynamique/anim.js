@@ -87,3 +87,5 @@ typewriter
   .typeString('<strong>SCROLL DOWN TO DISCOVER MY <span style="color: #0060f1;">PORTFOLIO</span></strong>')
   .pauseFor(1000)
   .start();
+
+  
