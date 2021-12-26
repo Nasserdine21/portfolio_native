@@ -1311,3 +1311,215 @@ footer marquee{
         margin-bottom: 30px;
     }
 }
+@media screen and (min-width: 426px) and (max-width: 768px){
+    #desktop{
+        display: none;
+    }
+    .phone_nav{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .burger {
+        cursor: pointer;
+        width: 20%;
+        display: block;
+        
+    }
+    .burger i{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    header .menu .burger i{
+        color: black;
+        font-size: 30px;
+        z-index: 100;
+        transform: rotate(270deg);
+        
+    }
+
+    .menurotate{
+
+
+        transform: rotate(180deg);
+
+       
+
+        transition: all 0.4s ease-in-out;
+
+        
+    }
+    #bg{
+        /* display: block;
+        background-color:#dae7fb;
+       position: fixed;
+       width: 300px;
+       height: 100%;
+
+       
+       
+        
+
+       border-bottom-right-radius: 20px;
+
+       border-top-right-radius: 20px;
+
+       z-index: 10; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100%;
+        position: fixed;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #dae7fb;
+        overflow-x: hidden;
+
+        transition: all 0.5s ease-in-out;
+        
+
+       
+      
+    }
+
+    .menu_none{
+        background: none !important;
+
+        transition: all 0.5s ease-in-out;
+
+    }
+
+    
+    .show{
+        
+        width: 60% !important;
+        box-shadow: 10px 10px 8px 10px #888888;
+    }
+    
+    
+
+    #bg ul li{
+        
+        
+        list-style: none;
+
+        margin: 50px;
+
+       
+       
+    }
+    #bg ul li i{
+        margin-right: 20px;
+    }
+
+    #bg ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+    header .dev{
+        display: none;
+        
+    }
+    header #profil .desc{
+        width: 100%;
+        margin: 10px;
+        text-align: center;
+    }
+    header #profil .desc p{
+        text-align: center;
+    }
+    header #profil{
+        padding-top: 30px;
+    }
+    .competence .cmpt{
+        flex-direction: column;
+    }
+    .parcours {
+        width: 60%;
+    }
+    main #formation .pic1 {
+        width: 40%;
+    }
+    main #formation {
+        padding-bottom: 0;
+        width: 100%;
+        background-color: #f2f6fc;
+        min-height: fit-content;
+    }
+    .item{
+        width: 100%;
+    }
+    .item-info{
+        width: 70%;
+    }
+    .item-date{
+        width: 30%;
+    }
+    .parcours .item .item-info h4 {
+        font-size: 20px;
+    }
+    .parcours h1 {
+
+        font-size: 36px;
+    }
+    #competences h1 {
+        font-size: 35px;
+    }
+    .competence .right h4{
+        font-size: 20px;
+    }
+    .competence .left h4{
+        font-size: 20px;
+    }
+    .competence .right .cmpt {
+        
+        margin: 0;
+    }
+    #competences .competence{
+        margin-top: 50px;
+    }
+    #GALLERY h1 {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .container .container-left h3 {
+        font-size: 25px;
+    }
+    .container .container-left p {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .container .container-left {
+        width: 40%;
+    }
+    .container .container-right {
+        width: 60%;
+    }
+    .contact .mailing p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .contact .left{
+        width: 30%;
+    }
+    .contact h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    header .menu .avatar {
+        font-size: 22px;
+    }
+    header nav ul li {
+        font-size: 14.5px;
+        margin-right: 15px;
+    }
+}

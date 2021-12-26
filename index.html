@@ -54,7 +54,7 @@
 
          <!--nav Start-->
 
-        <nav>
+        <nav id="desktop">
 
             <ul>
 
@@ -63,7 +63,7 @@
                 <li id="cmpt"><a href="#competences">Competences</a></li>
                 <li id="cmpt"><a href="#GALLERY">Gallery</a></li>
                 <li id="cnt"><a href="#contact">Contact</a></li>
-                <li class="cv">Telecharger CV <i class="fas fa-arrow-down"></i></li>
+                <li class="cv" id="cvDon">Telecharger CV <i class="fas fa-arrow-down"></i></li>
                
 
 
@@ -88,15 +88,14 @@
 
                 <p>
 
-                 Full Stack Web Developer.
-                 j’ai pu travailler sur plusieurs projects de dévloppement web, presonnels et professionnels, Compétent PHP5 , HTML 5 CSS3 , Javascript, 
-                 JQuery et WordPress. et doté d’une grande curiosité à apprendre des nouvelles techniques et technologies.
+                    Je suis un développeur web professionnel avec +3 ans d'expérience Je passe toute ma journée, pratiquement tous les jours, à expérimenter, HTML, CSS, and js/jquery/- react js; PHP/ Laravel.
+                    Je suis curieux et j'aime le travail qui me met au défi d'apprendre quelque chose de nouveau et de m'étendre dans une direction différente.
 
                 </p>
 
                 <div class="btns">
 
-                    <button class="dcv">Telecharger CV <i class="fas fa-arrow-down"></i></button>
+                    <button class="dcv" id="cvDon2">Telecharger CV <i class="fas fa-arrow-down"></i></button>
                     <button class="cnt"><a href="#contact">Contact</a></button>
 
                 </div>
@@ -341,7 +340,7 @@
                             
                          
 
-                                <p>-JQUERY</p>
+                                <p>-REACTJS</p>
                                 <p>-SQL/MYSQL</p>
                                 <p>-BOOTSTRAP</p>
 
@@ -426,9 +425,9 @@
                     <div class="container-left">
 
 
-                        <h3>AKYYUR PROJECT</h3>
-                        <p>Site web vitrine utiliser photoshop pour la maquette</p>
-                        <p>utiliser cms WordPress pour le site web</p>
+                        <h3>PERFERIOM PROJECT</h3>
+                        <p>developpement de platform du Prét Bancaire en utilisant</p>
+                        <p>bootstrap, javascript, php, laravel, mysql.</p>
                         
 
                     </div>
@@ -448,15 +447,59 @@
 
                     <div class="container-left">
 
-                        <h3>AKYYUR PROJECT</h3>
-                        <p>Site web vitrine utiliser photoshop pour la maquette</p>
-                        <p>utiliser cms WordPress pour le site web</p>
+                        <h3>PERFORIOM LANDING PAGE</h3>
+                        <p>Landing page pour le project PERFORIOM</p>
+                        <p>utiliser cms WordPress</p>
 
                     </div>
 
                     <div class="container-right">
 
                         <img src="assets/perlp.png">
+
+                        
+
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="container">
+
+                    <div class="container-left">
+
+                        <h3>COVID TRACKER</h3>
+                        <p>WebSite pour tracker corana virus et de test</p>
+                        <p>utiliser html / css / javascript / rest Api</p>
+
+                    </div>
+
+                    <div class="container-right">
+
+                        <img src="assets/corona.png">
+
+                        
+
+                        
+                    </div>
+
+                </div>
+
+
+                <div class="container">
+
+                    <div class="container-left">
+
+                        <h3>GAMING AVATARS</h3>
+                        <p>Creation du hero de jeux video (weapons, power, character ....)</p>
+                        <p>utiliser React Js et FireBase</p>
+
+                    </div>
+
+                    <div class="container-right">
+
+                        <img src="assets/games.png">
 
                         
 
@@ -583,7 +626,7 @@
     
         
        
-        <marquee>REALIZED BY NASSERDINE EL AATTARI</marquee>
+        <marquee>RALISER PAR NASSERDINE EL AATTARI</marquee>
         </footer>
 
         <!--footer end-->
@@ -596,10 +639,27 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="dynamique/anim.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         AOS.init();
       </script>
+
+    <script>
+
+        $(document).ready(function() {
+
+            $('#cvDon').click(function(e) {
+                e.preventDefault();
+                window.location.href = "cv/resume_print.pdf";
+            });
+
+            $('#cvDon2').click(function(e) {
+                e.preventDefault();
+                window.location.href = "cv/resume_print.pdf";
+            });
+        });
+
+    </script>
 
 </body>
 </html>
